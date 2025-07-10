@@ -1,3 +1,55 @@
-body{
- max-width: 1440;   
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.primary-color{
+    color: #4E47FF;
+}
+.header-main{
+    background-image: url(images/Hero-bg.png);
+    background-repeat: cover;
+}
+.header-logo{
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    margin-top: 51.5px;
+}
+.signup-button{
+    margin-right: 150px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    height: 48px;
+    width: 132px;
+    margin-top: 51.5px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+}
+.hero-section{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+.hero-header{
+    font-size:65px;
+}
+.button-focused{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    height: 48px;
+    width: 174px;
+    margin-top: 51.5px;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+.heading-action{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
 }
