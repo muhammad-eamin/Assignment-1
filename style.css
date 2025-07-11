@@ -1,3 +1,6 @@
+body{
+    background-color: #F5F8FF;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,13 +14,13 @@ nav{
 }
 .header-logo{
     margin-left: 150px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 34px;
     margin-top: 51.5px;
 }
 .signup-button{
     margin-right: 150px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #4E47FF;
     border-radius: 10px;
     height: 48px;
@@ -79,8 +82,107 @@ nav{
 .action-page-main{
     display: flex;
     margin-bottom: 116px;
+    gap: 203px;
 }
 .action-page-main img{
     margin-top: 116px;
     border-radius: 40px;
+    margin-right: 159px ;
 }
+.ratting-heading{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+}
+.ratting-page {
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    background-color: #E5E7FF;
+    border-radius: 30px;
+    margin-left: 141px;
+    margin-right: 159px;
+    padding:50px 50px 80px 80px;
+    text-align: center;
+    height: 306px;
+}
+
+.ratting-heading {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.ratting-section {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 80px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0 0 0 0;
+    color: #4E47FF;
+}
+
+.ratting-labels {
+    font-size: 24px;
+    font-weight: normal;
+    color: #666;
+}
+.stars {
+  width: 100px;
+  height: 20px;
+  background-image: url('images/icon-star.png');
+  background-repeat: repeat-x;
+  background-size: 20px 20px; 
+}
+.rattingmain {
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+}
+
+.ratting-main-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    text-align: center;
+    margin-top: 80px;
+}
+.ratting-part{
+    background-color: #FAFBFF;
+    height: 243px;
+    width: 366px;
+    border-radius: 30px;
+    padding: 30px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Inter",sans-serif;
+}
+.reviewer-details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.reviewerimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  margin-right: 15px;
+}
+
+.reviewername ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewername li {
+  line-height: 1.4;
+  font-size: 14px;
+  color: #333;
+}
+
