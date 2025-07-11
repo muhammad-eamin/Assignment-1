@@ -203,11 +203,11 @@ nav {
   font-weight: bold;
   font-family: "Raleway", sans-serif;
 }
-.webflowpart img{
-    border-radius: 30px;
+.webflowpart img {
+  border-radius: 30px;
 }
-.webflowpart button{
-     background-color: #4e47ff;
+.webflowpart button {
+  background-color: #4e47ff;
   border-radius: 10px;
   height: 48px;
   width: 174px;
@@ -296,4 +296,29 @@ nav {
 .webflowpart button:hover {
   background-color: #4338ca;
 }
-
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+footer h1 {
+  color: #4338ca;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 34px;
+}
+footer li {
+  display: inline;
+  margin-right: 60px;
+}
+footer li a {
+  text-decoration: none;
+  color: #333;font-family: "Inter", sans-serif;
+}
+footer p {
+  color: #333;font-family: "Inter", sans-serif;
+}
+footer a:hover{
+    color: #4f46e5;
+}
